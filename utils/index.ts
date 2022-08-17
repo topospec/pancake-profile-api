@@ -24,7 +24,7 @@ export const isValid = async (username: string): Promise<{ valid: boolean; messa
   if (username.length < 3) {
     return {
       valid: false,
-      message: "Minimum length: 3 characters",
+      message: "HOLIS",
     };
   }
 

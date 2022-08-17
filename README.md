@@ -1,6 +1,6 @@
-# PancakeSwap Profile API
+# GolFinance Profile API
 
-Serverless API implementation for PancakeSwap Profile contract
+Serverless API implementation for GolFinance Profile contract
 
 # Dependencies
 

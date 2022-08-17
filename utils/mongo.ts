@@ -22,7 +22,7 @@ export const getConnection = async (): Promise<Connection> => {
     await connection;
     connection.model("User", userSchema);
   }
-
+  console.log('Connecting...')
   return connection;
 };
 
