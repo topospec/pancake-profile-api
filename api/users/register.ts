@@ -16,6 +16,8 @@ export default async (req: VercelRequest, res: VercelResponse): Promise<VercelRe
   }
 
   const signedAddress = verifyMessage(username, signature);
+  // FIXME: For Testing Purposes Only @dev:topospec
+  // const signedAddress = address;
   if (address.toLowerCase() !== signedAddress?.toLowerCase()) {
     return res.status(400).json({ error: { message: "Invalid signature." } });
   }
